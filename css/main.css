@@ -1,0 +1,15 @@
+:root {
+    --dark-BGC: #1F2937;
+    --hero-primary: #F9FAF8;
+    --hero-sec: #E5E7EB;
+    --CTA-color: #3882F6;
+    --font-family: 'Poppins', sans-serif;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+}
