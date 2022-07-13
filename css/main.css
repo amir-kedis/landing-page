@@ -65,11 +65,12 @@ img {
     width: 100%;
     height: auto;
 }
-
-.container > .row {
-    margin-left: -2em;
-    margin-right: -2em;
-    display: flex;
+@media only screen and (min-width: 576px) {
+    .container > .row {
+        margin-left: -2em;
+        margin-right: -2em;
+        display: flex;
+    }
 }
 
 .btn {
@@ -233,4 +234,14 @@ img {
 }
 .CTA__text p {
     margin: 2em 0 0 0;
+}
+/* Footer */
+.footer {
+    background-color: var(--dark-BGC);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    color: var(--hero-primary);
+    font-size: 18px;
 }
