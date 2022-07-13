@@ -80,6 +80,7 @@ img {
     font-weight: var(--hero-main-text-weight);
     padding: 0.6em 2em;
     border-radius: .6em;
+    cursor: pointer;
 }
 /* hero section */
 .hero {
@@ -139,4 +140,64 @@ img {
 .hero__text p {
     color: var(--hero-sec);
     font-size: var(--hero-sec-text-size);
+}
+
+/* info */
+.info {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--dark-BGC);
+}
+.info .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.info h2 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+.cards {
+    gap: 2em;
+    justify-content: space-around;
+}
+.card {
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.card img {
+    border-radius: 2em;
+    border: 6px var(--CTA-color) solid;
+}
+.card__disc {
+    font-size: 18px;    
+}
+
+/* Quote */
+.quote {
+    background-color: var(--hero-sec);
+    color: var(--dark-BGC);
+    padding: 10em;
+}
+.quote__body {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+.quote__text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+.quote__author {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 28px;
 }
