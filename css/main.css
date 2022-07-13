@@ -82,6 +82,10 @@ img {
     border-radius: .6em;
     cursor: pointer;
 }
+
+.btn-sec {
+    border: 2px #FFF solid;
+}
 /* hero section */
 .hero {
     background-color: var(--dark-BGC);
@@ -190,7 +194,7 @@ img {
     gap: 2em;
     padding-left: 5em;
     padding-right: 5em;
-}
+}   
 .quote__text {
     font-size: 36px;
     font-weight: 300;
@@ -200,4 +204,33 @@ img {
     align-self: flex-end;
     font-weight: bolder;
     font-size: 28px;
+}
+/* CTA */
+.CTA {
+    
+}
+.CTA .container {
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+.CTA__box {
+    flex: 1;
+    background-color: var(--CTA-color);
+    color: var(--hero-primary);
+    padding: 3em 6em;
+    border-radius: 0.5em;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.CTA__text h3 {
+    font-size: 28px;
+    margin: 0;
+}
+.CTA__text p {
+    margin: 2em 0 0 0;
 }
